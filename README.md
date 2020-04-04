@@ -11,10 +11,12 @@ absolute beastly lovely work from him!!!
 Required stuff for working algorythm: 
 
 > tf 1.0
+
 tf 2.0+ breaks and to fix you need to use depreciated methods
 
 Need a replay buffer class ## going to store replay data for uniform update selection
 > also its going to be off policy so it can be large
+
 Need a class for a target Q network (funtion of s, a)
 We will use batch normalization (to have same unit mean and variance)
 We have two actor and two critic networks, a target for each.
